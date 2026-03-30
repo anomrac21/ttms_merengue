@@ -1,4 +1,7 @@
 ---
 title: ""
+image: images/food.jpg
+
 ---
-<p>TTMenus Menu System.</p>
+
+<p>Merengue Restaurant — authentic Venezuelan food. VAT and service charge may apply; see menu for details.</p>

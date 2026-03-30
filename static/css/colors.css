@@ -1,32 +1,49 @@
 :root {
-    --hero-bg-image-fg-color: #f4dec3;
-    --contact-info-bg: none;
-    --button-text-color2: #ffffff;
-    --main-bg-color: #f4dec3;
-    --menu-bg-color-1: #22273111;
-    --header-bordercolor-1: #dfeed4ff;
-    --modal-bg-container-color: #00000055;
-    --selected-button-color3: #fff;
-    --header-color: #000000ed;
-    --header-bg-color: #222731ee;
-    --selected-button-color4: #000000ee;
-    --button-color2: #000;
-    --header-bordercolor-2: #dfeed4ff;
-    --selected-text-color2: #fff;
-    --header-icon-color: #fefefe;
-    --menu-bg-color-2: #00000055;
-    --button-color1: #222731;
-    --selected-button-color2: #200;
-    --footer-text-color: #000;
-    --hero-text-color: #000;
-    --header-bg-image: none;
-    --button-text-color3: #fff;
-    --selected-text-color3: #85181c;
-    --selected-button-color1: #200;
-    --button-text-color1: #fefefe;
-    --main-text-color: #ffffff;
-    --main-bg: #000;
-    --footer-bg-color: #fefefe;
-    --selected-text-color1: #fff;
-    --hero-bg-color: #000000;
+  /* Merengue menu cover: off-white paper, black type, coral/salmon accent (Menu title, VAT line) */
+  /* Header */
+  --header-color: #1a1a1a;
+  --header-text-color: #000000;
+  --header-text-shadow-color: transparent;
+  --header-bg-color: #faf8f500;
+  --header-icon-color: #ffffff;
+  --header-bordercolor-1: #e8e4e0;
+  --header-bordercolor-2: #e8e4e0;
+  --header-bg-image: none;
+
+  /* Hero */
+  --hero-bg-color: #f7f5f2;
+  --hero-bg-image-fg-color: #c75d52;
+  --hero-text-color: #1a1a1a;
+  --contact-info-bg: none;
+
+  /* Main */
+  --main-bg: #f7f5f2;
+  --main-bg-color: #f7f5f2;
+  --main-text-color: #1a1a1a;
+
+  /* Menu cards / gradients */
+  --menu-bg-color-1: #edeae6;
+  --menu-bg-color-2: #e3dfda;
+  --menu-text-color: #1a1a1a;
+
+  /* Buttons */
+  --button-color1: #c5200f;
+  --button-color2: #1a1a1a;
+  --button-text-color1: #ffffff;
+  --button-text-color2: #ffffff;
+  --button-text-color3: #ffffff;
+
+  /* Selected / active */
+  --selected-button-color1: #c5200f;
+  --selected-button-color2: #720b00;
+  --selected-button-color3: #ffffff;
+  --selected-button-color4: #1a1a1a;
+  --selected-text-color1: #ffffff;
+  --selected-text-color2: #ffffff;
+  --selected-text-color3: #c75d52;
+
+  /* Footer & modals */
+  --footer-bg-color: #faf8f5;
+  --footer-text-color: #4a4a4a;
+  --modal-bg-container-color: #00000055;
 }

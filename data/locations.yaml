@@ -1,17 +1,62 @@
-# Replace with real location(s). CPS or client fills address, city, island, phone, whatsapp, latlon, orderingtables, delivery, opening_hours.
 locations:
-  - address: "My Address"
+  - address: "Merengue, 147 Edinburgh Gardens"
+    city: "Chaguanas"
+    island: "Trinidad"
+    subcategories:
+      - Restaurant
+    latlon: [10.4982769, -61.4081213]
+    phone: "18687211093"
+    whatsapp: "18687211093"
+    orderingtables: []
+    delivery:
+    opening_hours:
+      mode: Auto
+      sun:
+        - type: Open
+          time: "11:00"
+        - type: Close
+          time: "22:00"
+      mon:
+        - type: Open
+          time: "11:00"
+        - type: Close
+          time: "22:00"
+      tue:
+        - type: Open
+          time: "11:00"
+        - type: Close
+          time: "22:00"
+      wed:
+        - type: Open
+          time: "11:00"
+        - type: Close
+          time: "22:00"
+      thu:
+        - type: Open
+          time: "11:00"
+        - type: Close
+          time: "22:00"
+      fri:
+        - type: Open
+          time: "11:00"
+        - type: Close
+          time: "22:00"
+      sat:
+        - type: Open
+          time: "11:00"
+        - type: Close
+          time: "22:00"
+
+  - address: "Ariapita Dr"
     city: "Port of Spain"
     island: "Trinidad"
     subcategories:
       - Restaurant
-      - Bar
-    latlon: [10.525849712311333, -61.40296428581248]
-    phone: 1868
-    whatsapp: 1868
-    orderingtables: ["Takeway Only"]
+    latlon: [10.6649891, -61.5308427]
+    phone: "18687323914"
+    whatsapp: "18687323914"
+    orderingtables: []
     delivery:
-      fooddrop: "https://fooddropcaribbean.com/en/store/"
     opening_hours:
       mode: Auto
       sun:
