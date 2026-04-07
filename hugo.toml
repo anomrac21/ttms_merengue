@@ -90,7 +90,7 @@ baseURL = 'https://merengue.ttmenus.com/'
     phone = 18687211093
 
 [params.services]
-    analyticsid = 0
+    analyticsid = 30
     notifications = true
 
 [params.social]
