@@ -1,7 +1,9 @@
 ---
 title: Fast Food
 weight: 14
-icon: https://ct.ttmenus.com/icons/white/icon-lunchspecial.webp
+icon: images/fast-food.webp
+images:
+    primary: images/fast-food.webp
 ---
 
 Burgers come with fries. VAT/SC not included.

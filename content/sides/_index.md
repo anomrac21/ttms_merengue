@@ -1,7 +1,9 @@
 ---
 title: Sides
 weight: 13
-icon: https://ct.ttmenus.com/icons/food/icon-wontons.webp
+icon: images/sides.webp
+images:
+    primary: images/sides.webp
 ---
 
 Add any of these to your dishes.

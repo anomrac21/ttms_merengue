@@ -1,7 +1,7 @@
 ---
 title: Chicken & Pork
 weight: 11
-icon: https://ct.ttmenus.com/icons/white/icon-lunchspecial.webp
+icon: images/chicken-pork-specials.webp
+images:
+    primary: images/chicken-pork-specials.webp
 ---
-
-

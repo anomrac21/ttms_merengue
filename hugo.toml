@@ -11,6 +11,7 @@ languageCode = 'en-tt'
     target = "content"
 title = 'Merengue Restaurant'
 baseURL = 'https://merengue.ttmenus.com/'
+enableRobotsTXT = true
 
 [markup]
 
@@ -36,6 +37,8 @@ baseURL = 'https://merengue.ttmenus.com/'
   page = ["HTML", "JSON"]
 
 [params]
+  tier = "tier1"
+  description = "Merengue Restaurant — authentic Venezuelan food. View our menu and order online."
   authServiceUrl = "https://auth.ttmenus.com"
   adsServiceUrl = "https://ads.ttmenus.com"
   notifyServiceUrl = "https://notify.ttmenus.com"
@@ -58,6 +61,19 @@ baseURL = 'https://merengue.ttmenus.com/'
     # serviceUrl = "http://localhost:8084"
     clientId = "ttms_merengue"
 
+# Dashboard update-ui still reads site.Params.content.*
+[params.content]
+    enabled = true
+    apiUrl = "https://cms.ttmenus.com/api"
+    clientId = "ttms_merengue"
+
+# Thumbor — on-demand resized images for dashboard previews
+[params.thumbor]
+    enabled = true
+    url = "https://thumbor.ttmenus.com"
+    sourceBaseUrl = "https://merengue.ttmenus.com"
+    menuImagesUseThumbor = true
+
 # Menu Image Service - user-submitted images with admin approval
 [params.menuImageService]
     enabled = true
@@ -72,11 +88,28 @@ baseURL = 'https://merengue.ttmenus.com/'
     apiUrl = "https://notify.ttmenus.com/api/v1"
     websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
     serviceUrl = "https://notify.ttmenus.com"
+  clientDomain = "merengue.ttmenus.com"
 
 [params.features]
     payments = false
     delivery = false
     notifications = true
+    analytics_access = true
+    featured = true
+    exclusive_ads = false
+    no_competitor_ads = false
+    unmetered_traffic = false
+
+# POS: enabled + provider drive runtime (head.html) and hub Account (index.json features.pos / pos_provider)
+[params.posintegration]
+    enabled = false
+    provider = ""
+    api_url = ""
+    access_token = ""
+    store_id = ""
+    sync_menu = false
+    auto_process_orders = false
+    fallback_to_whatsapp = true
 
 [params.orderingsystem]
     # Set to false to disable placing orders (cart still works; user gets message and order is cancelled)
@@ -88,6 +121,14 @@ baseURL = 'https://merengue.ttmenus.com/'
     usephonecall = false
     whatsapp = 18687211093
     phone = 18687211093
+
+# Payment Service — menu checkout (enable when client is onboarded to pay subdomain)
+[params.paymentService]
+    enabled = false
+    apiUrl = "https://pay.merengue.ttmenus.com"
+    clientId = "ttms_merengue"
+    currency = "TTD"
+    provider = "wipay"
 
 [params.services]
     analyticsid = 30

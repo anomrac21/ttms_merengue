@@ -1,0 +1,5 @@
+# Merengue Restaurant: coral fill, white border
+
+fill: "#c5200f"
+border: "#fefefe"
+border_width: 2

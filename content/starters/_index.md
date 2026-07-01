@@ -1,7 +1,9 @@
 ---
 title: Starters
 weight: 2
-icon: https://ct.ttmenus.com/icons/food/icon-wontons.webp
+icon: images/starters.webp
+images:
+    primary: images/starters.webp
 ---
 
 VAT and SC not included.

@@ -1,7 +1,9 @@
 ---
 title: Main Course
 weight: 12
-icon: https://ct.ttmenus.com/icons/white/icon-lunchspecial.webp
+icon: images/main-course.webp
+images:
+    primary: images/main-course.webp
 ---
 
 All options come with two sides.

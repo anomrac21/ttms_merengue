@@ -1,7 +1,7 @@
 ---
 title: Drinks
 weight: 16
-icon: https://ct.ttmenus.com/icons/food/icon-icedtea.webp
+icon: images/drinks.webp
+images:
+    primary: images/drinks.webp
 ---
-
-

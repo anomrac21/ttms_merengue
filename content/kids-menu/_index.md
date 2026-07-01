@@ -1,7 +1,7 @@
 ---
 title: Kids Menu
 weight: 6
-icon: https://ct.ttmenus.com/icons/food/icon-wontons.webp
+icon: images/kids-menu.webp
+images:
+    primary: images/kids-menu.webp
 ---
-
-

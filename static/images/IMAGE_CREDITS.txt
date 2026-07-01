@@ -1,0 +1,21 @@
+Section photos:
+- food.jpg — Merengue Restaurant (client-owned)
+- breakfast.webp — Pexels #2092900
+- starters.webp — Pexels #247117
+- salads.webp — Pexels #1128678
+- protein-add-ons.webp — Pexels #376464
+- plates.webp — Pexels #2233348
+- kids-menu.webp — Pexels #1640774
+- pastas.webp — Pexels #4518843
+- cachapas.webp — Pexels #1435907
+- menu-add-ons.webp — Pexels #410648
+- parrillas.webp — Pexels #2696037
+- chicken-pork-specials.webp — Pexels #2092897
+- main-course.webp — Pexels #1279330
+- sides.webp — Pexels #2284163
+- fast-food.webp — Pexels #1639565
+- virgin-drinks.webp — Pexels #1199957
+- drinks.webp — Pexels #274192
+- slideshow-parrillas.webp — Pexels #2696037
+- slideshow-breakfast.webp — Pexels #2092900
+- slideshow-main-course.webp — Pexels #1279330
