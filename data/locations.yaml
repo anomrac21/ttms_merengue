@@ -1,5 +1,6 @@
 locations:
-  - address: "Merengue, 147 Edinburgh Gardens"
+  - slug: chaguanas
+    address: "Merengue, 147 Edinburgh Gardens"
     city: "Chaguanas"
     island: "Trinidad"
     subcategories:
@@ -47,7 +48,8 @@ locations:
         - type: Close
           time: "22:00"
 
-  - address: "Ariapita Dr"
+  - slug: port-of-spain
+    address: "Ariapita Dr"
     city: "Port of Spain"
     island: "Trinidad"
     subcategories:

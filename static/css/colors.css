@@ -1,49 +1,58 @@
 :root {
-  /* Merengue menu cover: off-white paper, black type, coral/salmon accent (Menu title, VAT line) */
-  /* Header */
-  --header-color: #1a1a1a;
-  --header-text-color: #000000;
-  --header-text-shadow-color: transparent;
-  --header-bg-color: #faf8f500;
-  --header-icon-color: #ffffff;
-  --header-bordercolor-1: #e8e4e0;
-  --header-bordercolor-2: #e8e4e0;
-  --header-bg-image: none;
+    /* Header */
+    --header-color: #c5200f;
+    --header-bg-color: #c5200f;
+    --header-text-color: #ffffff;
+    --header-text-shadow-color: transparent;
+    --header-icon-color: #ffffff;
+    --header-bordercolor-1: #e8e4e0;
+    --header-bordercolor-2: #e8e4e0;
+    --header-border-color: #e8e4e0;
+    --header-bg-image: none;
 
-  /* Hero */
-  --hero-bg-color: #f7f5f2;
-  --hero-bg-image-fg-color: #c75d52;
-  --hero-text-color: #1a1a1a;
-  --contact-info-bg: #c75d52;
+    /* Hero */
+    --hero-bg-color: #1a1a1a;
+    --hero-bg-color-1: #1a1a1a;
+    --hero-bg-color-2: #1a1a1a;
+    --hero-bg-image-fg-color: #c75d52;
+    --hero-text-color: #ffffff;
+    --hero-features-icon-color: #ffffff;
+    --hero-features-icon-bg-color: #c5200f;
+    --hero-border-color: #e8e4e0;
+    --contact-info-bg: #c75d52;
 
-  /* Main */
-  --main-bg: #f7f5f2;
-  --main-bg-color: #f7f5f2;
-  --main-text-color: #1a1a1a;
+    /* Main */
+    --main-bg: #1a1a1a;
+    --main-bg-color: #1a1a1a;
+    --main-text-color: #ffffff;
 
-  /* Menu cards / gradients */
-  --menu-bg-color-1: #edeae6;
-  --menu-bg-color-2: #e3dfda;
-  --menu-text-color: #1a1a1a;
+    /* Menu */
+    --menu-bg-color-1: #c5200f;
+    --menu-bg-color-2: #1a1a1a;
+    --menu-text-color: #ffffff;
 
-  /* Buttons */
-  --button-color1: #c5200f;
-  --button-color2: #1a1a1a;
-  --button-text-color1: #ffffff;
-  --button-text-color2: #ffffff;
-  --button-text-color3: #ffffff;
+    /* Buttons */
+    --button-color1: #c5200f;
+    --button-color2: #1a1a1a;
+    --button-text-color1: #ffffff;
+    --button-text-color2: #ffffff;
+    --button-text-color3: #ffffff;
+    --favorite-color: #ffffff;
+    --selected-button-color1: #c5200f;
+    --selected-button-color2: #720b00;
+    --selected-button-color3: #1a1a1a;
+    --selected-button-color4: #1a1a1a;
+    --selected-text-color1: #ffffff;
+    --selected-text-color2: #ffffff;
+    --selected-text-color3: #ffffff;
+    --select-color: #c5200f;
+    --accent-color: #c5200f;
+    --accent-text-color: #ffffff;
+    --accent-glow-color: #f7f5f2;
 
-  /* Selected / active */
-  --selected-button-color1: #c5200f;
-  --selected-button-color2: #720b00;
-  --selected-button-color3: #ffffff;
-  --selected-button-color4: #1a1a1a;
-  --selected-text-color1: #ffffff;
-  --selected-text-color2: #ffffff;
-  --selected-text-color3: #c75d52;
-
-  /* Footer & modals */
-  --footer-bg-color: #c5200f;
-  --footer-text-color: #fefefe;
-  --modal-bg-container-color: #00000055;
+    /* Footer */
+    --footer-bg-color: #c5200f;
+    --footer-text-color: #fefefe;
+    --footer-icon-color: #fefefe;
+    --modal-bg-container-color: #00000055;
 }

@@ -1,0 +1,607 @@
+{
+  "multi_location_menus": true,
+  "shared": [
+    {
+      "section": "breakfast",
+      "file": "arepa",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/arepa.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "empanada",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/empanada.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "option-cachitos",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/option-cachitos.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "option-pastelitos",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/option-pastelitos.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "option-tequeno",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/option-tequeno.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "option-tequenon",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/option-tequenon.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "option-yogurt-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/option-yogurt-bowl.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "pancake",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/pancake.md"
+    },
+    {
+      "section": "breakfast",
+      "file": "platter",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast/platter.md"
+    },
+    {
+      "section": "cachapas",
+      "file": "4k-cachapa",
+      "authoring": "shared",
+      "content_path": "content/_shared/cachapas/4k-cachapa.md"
+    },
+    {
+      "section": "cachapas",
+      "file": "classic-cachapa",
+      "authoring": "shared",
+      "content_path": "content/_shared/cachapas/classic-cachapa.md"
+    },
+    {
+      "section": "chicken-pork-specials",
+      "file": "crispy-pork-portion",
+      "authoring": "shared",
+      "content_path": "content/_shared/chicken-pork-specials/crispy-pork-portion.md"
+    },
+    {
+      "section": "chicken-pork-specials",
+      "file": "half-chicken-arepa",
+      "authoring": "shared",
+      "content_path": "content/_shared/chicken-pork-specials/half-chicken-arepa.md"
+    },
+    {
+      "section": "chicken-pork-specials",
+      "file": "whole-chicken-arepa",
+      "authoring": "shared",
+      "content_path": "content/_shared/chicken-pork-specials/whole-chicken-arepa.md"
+    },
+    {
+      "section": "drinks",
+      "file": "chicha",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/chicha.md"
+    },
+    {
+      "section": "drinks",
+      "file": "cocacola",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/cocacola.md"
+    },
+    {
+      "section": "drinks",
+      "file": "frescolita",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/frescolita.md"
+    },
+    {
+      "section": "drinks",
+      "file": "gatorade",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/gatorade.md"
+    },
+    {
+      "section": "drinks",
+      "file": "malta",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/malta.md"
+    },
+    {
+      "section": "drinks",
+      "file": "milkshake",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/milkshake.md"
+    },
+    {
+      "section": "drinks",
+      "file": "natural-juice",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/natural-juice.md"
+    },
+    {
+      "section": "drinks",
+      "file": "papelon-con-limon",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/papelon-con-limon.md"
+    },
+    {
+      "section": "drinks",
+      "file": "sprite",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/sprite.md"
+    },
+    {
+      "section": "drinks",
+      "file": "water",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks/water.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "asquerosito-hot-dog",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/asquerosito-hot-dog.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "beef-shawarma",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/beef-shawarma.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "cachapa-burger",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/cachapa-burger.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "club-house",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/club-house.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "crispy-burger",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/crispy-burger.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "merengue-burger",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/merengue-burger.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "patacon",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/patacon.md"
+    },
+    {
+      "section": "fast-food",
+      "file": "pepito",
+      "authoring": "shared",
+      "content_path": "content/_shared/fast-food/pepito.md"
+    },
+    {
+      "section": "kids-menu",
+      "file": "kids-arepita-cheese",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids-menu/kids-arepita-cheese.md"
+    },
+    {
+      "section": "kids-menu",
+      "file": "kids-bolognese-pasta",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids-menu/kids-bolognese-pasta.md"
+    },
+    {
+      "section": "kids-menu",
+      "file": "kids-nuggets-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids-menu/kids-nuggets-fries.md"
+    },
+    {
+      "section": "kids-menu",
+      "file": "kids-tequenos",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids-menu/kids-tequenos.md"
+    },
+    {
+      "section": "main-course",
+      "file": "creamy-shrimp-gratin",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/creamy-shrimp-gratin.md"
+    },
+    {
+      "section": "main-course",
+      "file": "garlic-shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/garlic-shrimp.md"
+    },
+    {
+      "section": "main-course",
+      "file": "grill-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/grill-chicken.md"
+    },
+    {
+      "section": "main-course",
+      "file": "lamb-chops",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/lamb-chops.md"
+    },
+    {
+      "section": "main-course",
+      "file": "mahi-mahi",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/mahi-mahi.md"
+    },
+    {
+      "section": "main-course",
+      "file": "pink-salmon",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/pink-salmon.md"
+    },
+    {
+      "section": "main-course",
+      "file": "ribeye-12",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/ribeye-12.md"
+    },
+    {
+      "section": "main-course",
+      "file": "smoked-pork-chop",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/smoked-pork-chop.md"
+    },
+    {
+      "section": "main-course",
+      "file": "snapper",
+      "authoring": "shared",
+      "content_path": "content/_shared/main-course/snapper.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-black-beans-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-black-beans-ing.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-crispy-pork-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-crispy-pork-ing.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-fried-plantain-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-fried-plantain-ing.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-pork-chop-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-pork-chop-ing.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-roast-chicken-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-roast-chicken-ing.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-shredded-beef",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-shredded-beef.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-shredded-chicken-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-shredded-chicken-ing.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-solomillo-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-solomillo-ing.md"
+    },
+    {
+      "section": "menu-add-ons",
+      "file": "addon-white-cheese-ing",
+      "authoring": "shared",
+      "content_path": "content/_shared/menu-add-ons/addon-white-cheese-ing.md"
+    },
+    {
+      "section": "parrillas",
+      "file": "classic-parrilla",
+      "authoring": "shared",
+      "content_path": "content/_shared/parrillas/classic-parrilla.md"
+    },
+    {
+      "section": "parrillas",
+      "file": "merengue-platte",
+      "authoring": "shared",
+      "content_path": "content/_shared/parrillas/merengue-platte.md"
+    },
+    {
+      "section": "parrillas",
+      "file": "parrilla-llanera",
+      "authoring": "shared",
+      "content_path": "content/_shared/parrillas/parrilla-llanera.md"
+    },
+    {
+      "section": "parrillas",
+      "file": "parrilla-mar-y-tierra",
+      "authoring": "shared",
+      "content_path": "content/_shared/parrillas/parrilla-mar-y-tierra.md"
+    },
+    {
+      "section": "parrillas",
+      "file": "picadito-llanero",
+      "authoring": "shared",
+      "content_path": "content/_shared/parrillas/picadito-llanero.md"
+    },
+    {
+      "section": "pastas",
+      "file": "bolognese",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/bolognese.md"
+    },
+    {
+      "section": "pastas",
+      "file": "homemade-alfredo",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/homemade-alfredo.md"
+    },
+    {
+      "section": "pastas",
+      "file": "pasta-carbonara",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/pasta-carbonara.md"
+    },
+    {
+      "section": "pastas",
+      "file": "pasta-marinara",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/pasta-marinara.md"
+    },
+    {
+      "section": "pastas",
+      "file": "pasticho",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/pasticho.md"
+    },
+    {
+      "section": "pastas",
+      "file": "pomodoro",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/pomodoro.md"
+    },
+    {
+      "section": "plates",
+      "file": "cordon-bleu-plate",
+      "authoring": "shared",
+      "content_path": "content/_shared/plates/cordon-bleu-plate.md"
+    },
+    {
+      "section": "plates",
+      "file": "fried-rice-chinese-venezuelan",
+      "authoring": "shared",
+      "content_path": "content/_shared/plates/fried-rice-chinese-venezuelan.md"
+    },
+    {
+      "section": "plates",
+      "file": "kebab-duo",
+      "authoring": "shared",
+      "content_path": "content/_shared/plates/kebab-duo.md"
+    },
+    {
+      "section": "plates",
+      "file": "pabellon-criollo",
+      "authoring": "shared",
+      "content_path": "content/_shared/plates/pabellon-criollo.md"
+    },
+    {
+      "section": "plates",
+      "file": "parmesan-chicken-napolitana",
+      "authoring": "shared",
+      "content_path": "content/_shared/plates/parmesan-chicken-napolitana.md"
+    },
+    {
+      "section": "plates",
+      "file": "solomo-argentino",
+      "authoring": "shared",
+      "content_path": "content/_shared/plates/solomo-argentino.md"
+    },
+    {
+      "section": "protein-add-ons",
+      "file": "addon-beef-solomillo",
+      "authoring": "shared",
+      "content_path": "content/_shared/protein-add-ons/addon-beef-solomillo.md"
+    },
+    {
+      "section": "protein-add-ons",
+      "file": "addon-grilled-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/protein-add-ons/addon-grilled-chicken.md"
+    },
+    {
+      "section": "protein-add-ons",
+      "file": "addon-grilled-salmon",
+      "authoring": "shared",
+      "content_path": "content/_shared/protein-add-ons/addon-grilled-salmon.md"
+    },
+    {
+      "section": "protein-add-ons",
+      "file": "addon-shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/protein-add-ons/addon-shrimp.md"
+    },
+    {
+      "section": "salads",
+      "file": "clean-green",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/clean-green.md"
+    },
+    {
+      "section": "salads",
+      "file": "plain-caesar",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/plain-caesar.md"
+    },
+    {
+      "section": "sides",
+      "file": "black-beans-side",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/black-beans-side.md"
+    },
+    {
+      "section": "sides",
+      "file": "coleslaw",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/coleslaw.md"
+    },
+    {
+      "section": "sides",
+      "file": "french-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/french-fries.md"
+    },
+    {
+      "section": "sides",
+      "file": "fresh-salad-side",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/fresh-salad-side.md"
+    },
+    {
+      "section": "sides",
+      "file": "fried-arepitas",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/fried-arepitas.md"
+    },
+    {
+      "section": "sides",
+      "file": "fried-boiled-cassava",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/fried-boiled-cassava.md"
+    },
+    {
+      "section": "sides",
+      "file": "fried-plantain",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/fried-plantain.md"
+    },
+    {
+      "section": "sides",
+      "file": "mashed-potatoes",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/mashed-potatoes.md"
+    },
+    {
+      "section": "sides",
+      "file": "steamed-vegetables",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/steamed-vegetables.md"
+    },
+    {
+      "section": "sides",
+      "file": "stir-fried-noodles",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/stir-fried-noodles.md"
+    },
+    {
+      "section": "sides",
+      "file": "tostones",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/tostones.md"
+    },
+    {
+      "section": "starters",
+      "file": "asopado",
+      "authoring": "shared",
+      "content_path": "content/_shared/starters/asopado.md"
+    },
+    {
+      "section": "starters",
+      "file": "shrimp-wantons",
+      "authoring": "shared",
+      "content_path": "content/_shared/starters/shrimp-wantons.md"
+    },
+    {
+      "section": "starters",
+      "file": "soup",
+      "authoring": "shared",
+      "content_path": "content/_shared/starters/soup.md"
+    },
+    {
+      "section": "starters",
+      "file": "tequenos-starter",
+      "authoring": "shared",
+      "content_path": "content/_shared/starters/tequenos-starter.md"
+    },
+    {
+      "section": "starters",
+      "file": "toston-trios",
+      "authoring": "shared",
+      "content_path": "content/_shared/starters/toston-trios.md"
+    },
+    {
+      "section": "starters",
+      "file": "trio-empanadas",
+      "authoring": "shared",
+      "content_path": "content/_shared/starters/trio-empanadas.md"
+    },
+    {
+      "section": "starters",
+      "file": "wings-buffalo-bbq",
+      "authoring": "shared",
+      "content_path": "content/_shared/starters/wings-buffalo-bbq.md"
+    },
+    {
+      "section": "virgin-drinks",
+      "file": "daiquiry-virgin",
+      "authoring": "shared",
+      "content_path": "content/_shared/virgin-drinks/daiquiry-virgin.md"
+    },
+    {
+      "section": "virgin-drinks",
+      "file": "margarita-virgin",
+      "authoring": "shared",
+      "content_path": "content/_shared/virgin-drinks/margarita-virgin.md"
+    },
+    {
+      "section": "virgin-drinks",
+      "file": "mojito-virgin",
+      "authoring": "shared",
+      "content_path": "content/_shared/virgin-drinks/mojito-virgin.md"
+    },
+    {
+      "section": "virgin-drinks",
+      "file": "mudslide-virgin",
+      "authoring": "shared",
+      "content_path": "content/_shared/virgin-drinks/mudslide-virgin.md"
+    },
+    {
+      "section": "virgin-drinks",
+      "file": "pina-colada-virgin",
+      "authoring": "shared",
+      "content_path": "content/_shared/virgin-drinks/pina-colada-virgin.md"
+    }
+  ],
+  "location": [],
+  "generated_at": "2026-10-16T18:57:37.443924+00:00"
+}

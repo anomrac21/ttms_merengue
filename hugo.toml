@@ -1,158 +1,181 @@
 theme = '_menus_ttms'
 languageCode = 'en-tt'
-
-# Mount theme's content (dashboard, locations, api, etc.); keep project content (defining mounts replaces default for that target)
-[module]
-  [[module.mounts]]
-    source = "content"
-    target = "content"
-  [[module.mounts]]
-    source = "themes/_menus_ttms/content"
-    target = "content"
 title = 'Merengue Restaurant'
 baseURL = 'https://merengue.ttmenus.com/'
 enableRobotsTXT = true
+timeout = '180s'
+
+[module]
+[[module.mounts]]
+source = 'content/_index.md'
+target = 'content/_index.md'
+
+[[module.mounts]]
+source = 'content/.generated'
+target = 'content'
+
+[[module.mounts]]
+source = 'themes/_menus_ttms/content'
+target = 'content'
 
 [markup]
 
 [markup.goldmark]
 
 [markup.goldmark.parser]
-      attribute = true
+attribute = true
 
 [markup.goldmark.renderer]
-      unsafe = true
+unsafe = true
 
 [outputFormats]
 
 [outputFormats.menuitemsJSON]
-    mediaType = "application/json"
-    baseName = "menu-items"
-    isPlainText = true
-    notAlternative = true
+mediaType = "application/json"
+baseName = "menu-items"
+isPlainText = true
+notAlternative = true
 
 [outputs]
-  home = ["HTML", "JSON"]
-  section = ["HTML", "JSON"]
-  page = ["HTML", "JSON"]
+home = ["HTML", "JSON"]
+section = ["HTML", "JSON"]
+page = ["HTML", "JSON"]
 
 [params]
-  tier = "tier1"
-  description = "Merengue Restaurant — authentic Venezuelan food. View our menu and order online."
-  authServiceUrl = "https://auth.ttmenus.com"
-  adsServiceUrl = "https://ads.ttmenus.com"
-  notifyServiceUrl = "https://notify.ttmenus.com"
+tier = "free"
+description = "Merengue Restaurant — authentic Venezuelan food. View our menu and order online."
+authServiceUrl = "https://auth.ttmenus.com"
+adsServiceUrl = "https://ads.ttmenus.com"
+notifyServiceUrl = "https://notify.ttmenus.com"
+
+[params.menu]
+multiLocationMenus = true
 
 [params.ads]
-    clientId = "ttms_merengue"
-    enabled = true
-    apiUrl = "https://ads.ttmenus.com/api/v1"
+clientId = "ttms_merengue"
+enabled = true
+apiUrl = "https://ads.ttmenus.com/api/v1"
 
 [params.auth]
-    enabled = true
-    apiUrl = "https://auth.ttmenus.com/api/v1"
+enabled = true
+apiUrl = "https://auth.ttmenus.com/api/v1"
 
 [params.contentManagement]
-    enabled = true
-    apiUrl = "https://cms.ttmenus.com/api"
-    serviceUrl = "https://cms.ttmenus.com"
-    # Local content-management-service: use both lines below and restart Hugo
-    # apiUrl = "http://localhost:8084/api"
-    # serviceUrl = "http://localhost:8084"
-    clientId = "ttms_merengue"
+enabled = true
+apiUrl = "https://cms.ttmenus.com/api"
+serviceUrl = "https://cms.ttmenus.com"
+clientId = "ttms_merengue"
 
-# Dashboard update-ui still reads site.Params.content.*
 [params.content]
-    enabled = true
-    apiUrl = "https://cms.ttmenus.com/api"
-    clientId = "ttms_merengue"
+enabled = true
+apiUrl = "https://cms.ttmenus.com/api"
+clientId = "ttms_merengue"
 
-# Thumbor — on-demand resized images for dashboard previews
 [params.thumbor]
-    enabled = true
-    url = "https://thumbor.ttmenus.com"
-    sourceBaseUrl = "https://merengue.ttmenus.com"
-    menuImagesUseThumbor = true
+enabled = true
+url = "https://thumbor.ttmenus.com"
+sourceBaseUrl = "https://merengue.ttmenus.com"
+menuImagesUseThumbor = true
 
-# Menu Image Service - user-submitted images with admin approval
 [params.menuImageService]
-    enabled = true
-    apiUrl = "https://menu-images.ttmenus.com/api/v1"
-    # For local development, use:
-    # apiUrl = "http://localhost:8084/api"
-    # serviceUrl = "http://localhost:8084"
+enabled = true
+apiUrl = "https://menu-images.ttmenus.com/api/v1"
 
-# Notification Service Configuration
 [params.notifications]
-    enabled = true
-    apiUrl = "https://notify.ttmenus.com/api/v1"
-    websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
-    serviceUrl = "https://notify.ttmenus.com"
-  clientDomain = "merengue.ttmenus.com"
+enabled = true
+apiUrl = "https://notify.ttmenus.com/api/v1"
+websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
+serviceUrl = "https://notify.ttmenus.com"
+clientDomain = "merengue.ttmenus.com"
 
 [params.features]
-    payments = false
-    delivery = false
-    notifications = true
-    analytics_access = true
-    featured = false
-    exclusive_ads = false
-    no_competitor_ads = false
-    unmetered_traffic = false
+payments = false
+delivery = false
+notifications = true
+analytics_access = false
+featured = false
+exclusive_ads = false
+no_competitor_ads = false
+unmetered_traffic = false
+loyverse_connect = false
 
-# POS: enabled + provider drive runtime (head.html) and hub Account (index.json features.pos / pos_provider)
 [params.posintegration]
-    enabled = false
-    provider = ""
-    api_url = ""
-    access_token = ""
-    store_id = ""
-    sync_menu = false
-    auto_process_orders = false
-    fallback_to_whatsapp = true
+enabled = false
+provider = ""
+api_url = ""
+oauth_url = "https://loyverse-oauth.ttmenus.com"
+access_token = ""
+store_id = ""
+sync_menu = false
+auto_process_orders = false
+fallback_to_whatsapp = true
+loyverse_receipt_mode = "on_payment"
 
 [params.orderingsystem]
-    # Set to false to disable placing orders (cart still works; user gets message and order is cancelled)
-    enabled = true
-    orderingDisabledMessage = "Ordering is not available for this menu at this time."
-    vat = 0
-    servicecharge = 0
-    hastables = true
-    usephonecall = false
-    whatsapp = 18687211093
-    phone = 18687211093
+enabled = false
+orderingDisabledMessage = "Ordering is not available for this menu at this time."
+vat = 0
+servicecharge = 0
+hastables = true
+usephonecall = false
+whatsapp = 18687211093
+phone = 18687211093
 
-# Payment Service — menu checkout (enable when client is onboarded to pay subdomain)
+[params.orderService]
+apiUrl = "https://orders.ttmenus.com/api/v1"
+enabled = false
+kitchenPrint = false
+paperWidthMm = 80
+printerName = ""
+
+[params.deliveryService]
+apiUrl = "https://delivery.ttmenus.com/api/v1"
+currency = "TTD"
+deliveryFee = 0
+enabled = false
+wsUrl = "wss://delivery.ttmenus.com/api/v1"
+
 [params.paymentService]
-    enabled = false
-    apiUrl = "https://pay.merengue.ttmenus.com"
-    clientId = "ttms_merengue"
-    currency = "TTD"
-    provider = "wipay"
+enabled = false
+apiUrl = "https://pay.merengue.ttmenus.com"
+clientId = "ttms_merengue"
+currency = "TTD"
+provider = "wipay"
+
+[params.reviews]
+enabled = true
+apiUrl = "https://reviews.ttmenus.com/api/v1"
+
+[params.mapService]
+url = "https://maps.ttmenus.com"
+dataSource = "trinidad-tobago"
+
+[params.osrm]
+url = "https://osrm.ttmenus.com"
 
 [params.services]
-    analyticsid = 30
-    notifications = true
+analyticsid = 30
+notifications = true
 
 [params.social]
-    youtube = ""
-    email = ""
-    phone = 18687211093
-    facebook = ""
-    instagram = "https://www.instagram.com/merenguerestaurantt?igsh=MWxoN3g4MHE1dXl2aA=="
-    tiktok = ""
+youtube = ""
+email = ""
+phone = 18687211093
+facebook = ""
+instagram = "https://www.instagram.com/merenguerestaurantt?igsh=MWxoN3g4MHE1dXl2aA=="
+tiktok = ""
 
 [privacy]
 
 [privacy.instagram]
-    simple = false
-    disable = false
+simple = false
+disable = false
 
 [taxonomies]
-  ingredient = "ingredients"
-  cookingmethod = "cookingmethods"
-  tag = "tags"
-  category = "categories"
-  subcategory = "subcategories"
-  type = "types"
-  event = "events"
+ingredient = "ingredients"
+cookingmethod = "cookingmethods"
+tag = "tags"
+category = "categories"
+subcategory = "subcategories"
+type = "types"
+event = "events"

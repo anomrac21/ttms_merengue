@@ -1,8 +1,10 @@
 {
     "name": "Merengue Restaurant",
     "short_name": "Merengue",
+    "id": "/",
     "description": "Merengue Restaurant Digital Menu ",
-    "start_url": ".",
+    "start_url": "/",
+    "scope": "/",
     "background_color": "#000000",
     "display": "standalone",
     "theme_color": "#000000",
